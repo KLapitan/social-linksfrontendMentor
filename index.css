@@ -1,0 +1,112 @@
+*{
+margin:0;
+padding:0;
+font-family: inter;
+font-size: 14px;
+}
+
+body{
+display:flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color:hsl(0, 0%, 8%);
+flex-direction: column;
+
+}
+
+#container{
+
+display: flex;
+flex-direction: column;
+gap: 20px;
+background-color: hsl(0, 0%, 12%);
+border-radius: 20px;
+width: 350px;
+height: 500px;
+
+}
+
+#Upper-template{
+border-radius: 20px;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+
+gap:10px;
+
+}
+
+img{
+width: 70px;
+height: 70px;
+border-radius: 100px;
+margin-top: 28px;
+
+}
+
+.name-text,.Place-text, .role-text{
+font-size: 0.8rem;
+color: hsl(0, 0%, 100%);
+}
+
+
+.name-text h3{
+font-size: 20px;
+margin-top: 10px;
+font-weight: 500;
+
+}
+.Place-text p{
+font-size: 11px;
+color: hsl(75, 94%, 57%);
+margin-bottom: 10px;
+font-weight: 700;
+
+}
+#lower-template{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:10px;
+
+}
+
+button{
+color: hsl(0, 0%, 100%);
+background-color: hsl(0, 0%, 20%);
+width: 90%;
+padding: 14px 30px;
+border-radius:10px;
+border:none;
+cursor: pointer;
+transform: scale(1);
+
+}
+
+button:hover{
+text-decoration: underline;
+transform: scale(1.1);
+}
+button:active{
+background-color: hsl(0, 0%, 22%)
+}
+
+.attribution {
+color: White;
+}
+
+.attribution a{
+color: white;
+text-decoration: none;
+
+}
+.attribution a:hover{
+text-decoration: underline ;
+color: Yellow;
+
+}
+.attribution a:active{
+color: red;
+}
